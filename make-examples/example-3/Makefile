@@ -12,12 +12,12 @@ all: debug release
 
 debug: $(DEBUG_EXEC)
 
-hello-dbg: $(SOURCE)
+Kazino-Royal-dbg: $(SOURCE)
 	g++ $(DEBUG_FLAGS) $(SOURCE) -o $(DEBUG_EXEC) 
 
 release: $(RELEASE_EXEC)
 
-hello: $(SOURCE)
+Kazino-Royal: $(SOURCE)
 	g++ $(RELEASE_FLAGS) $(SOURCE) -o $(RELEASE_EXEC)
 
 clean:
